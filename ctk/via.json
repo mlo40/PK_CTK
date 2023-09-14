@@ -1,0 +1,16 @@
+{
+  "name": "emlo protipa klaviatura",
+  "vendorId": "0x0009",
+  "productId": "0x0000",
+  "matrix": {"rows": 1, "cols": 1},
+  "layouts": {
+    "keymap": [
+	[
+        {
+          "x": 0
+        },
+        "0,0"
+      ]
+    ]
+  }
+}
