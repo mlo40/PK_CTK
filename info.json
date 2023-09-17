@@ -6,15 +6,13 @@
         "pid": "0x0000",
         "device_version": "1.0.0"
     },
-	"encoder": {
-        "rotary": [
-            {"pin_a": "F4", "pin_b": "F5"}
-        ]
-    },
 	"diode_direction": "COL2ROW",
 	"bootloader": "caterina",
-	"processor": "atmega32u4"
-"layouts": {
+	"processor": "atmega32u4",
+	"dynamic_keymap": {
+		"layer_count": 3
+	},
+	"layouts": {
         "LAYOUT_vc_custom": {
             "layout": [
                 {"matrix": [0, 0], "x": 0, "y": 0},
@@ -75,8 +73,7 @@
                 {"matrix": [4, 7], "x": 7, "y": 4},
                 {"matrix": [4, 8], "x": 8, "y": 4},
                 {"matrix": [4, 9], "x": 9, "y": 4},
-                {"matrix": [4, 10], "x": 10, "y": 4},
-				
+                {"matrix": [4, 10], "x": 10, "y": 4}
             ]
         }
     }
